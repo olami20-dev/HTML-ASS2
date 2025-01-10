@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY webpage!</title>
+</head>
+<body style="background-color: red;">  <!--Question 1-->
+    <ul>
+        <li style="color:black"><a style="color:black" href="contact.html">Contact us</a></li>
+       <li style="color:brown"> <a  style=color:brown href="about.html">About us</a></li>
+       <li style="color: darkblue;"> <a href="blog.html">My blog</a></li>
+    </ul>
+    
+    
+    <!---Question2 -->
+    <h1>---Welcome to my webpage---</h1>
+
+    <!---Question 3   creating form-->
+    <h3>--Create a form--</h3>
+    <form>
+        <label for Firstname>Firstname <br/>
+            <input type="text" name="Firstname" placeholder="firstname"/>
+        </label> <br/>
+        <label for Lasname>Lastname <br/>
+            <input type="text" name="Lastname" placeholder="lastname"/>
+        </label> <br/>
+        <label for Email> Create email <br/>
+            <input type="email" name="email" placeholder="email"/>
+        </label> <br>
+        <label for password> Create password <br>
+            <input type="password" name="password" placeholder="password" required minlength="8" maxlength="16" />
+               <!--Should be between 8 and 16 character long-->
+        </label> <br/>
+        <label for password>Confirm password <br/>
+            <input type="password"  name="Confirm password" placeholder=" Confirm password" required minlength="8" maxlength="16" />
+        </label> <br/>
+        <label> Choose gender</label> <br> 
+        <select>
+            <option value=""></option>
+            <option value="male" >Male</option>
+            <option value="female" >Female</option>
+            <option value="rather not say" >rather not say</option>
+        </select> <br/>
+        <p>Choose your favorite foods:</p>
+        <label>
+            <input type="checkbox" name="food" value="pizza"> Pizza
+        </label><br>
+        <label>
+            <input type="checkbox" name="food[]" value="Beans"> Beans
+        </label><br>
+        <label>
+            <input type="checkbox" name="food[]" value="Spaghetti"> Spaghetti
+        </label><br>
+        <label>
+            <input type="checkbox" name="food[]" value="Soup"> Soup
+        </label><br>
+        <label>
+            <input type="checkbox" name="food[]" value="Rice"> Rice
+        </label><br>
+        
+        <label> Choose your certificate</label> <br/>
+        <select>
+            <option value=""></option>
+            <option value="FSLC"> FLSC</option>
+            <option value="O'Level">O'level</option>
+            <option value="BSC">BSC</option>
+            <option i dont have> i don't have</option>
+        </select> <br/>
+         <label for phone number>Enter your phonenumber <br/>
+             <input type="phonenumber" name="phonenumber" placeholder="phonenumber"/>
+         </label> <br/>
+         <label  for tell us about yourself>Tell us about yourself <br/>
+             <textarea rows="10" cols="30" name="write here" placeholder="Write here" id="write here">
+             </textarea> <br/>
+         </label>
+         <label for agreement> <br/>
+           <input  type="checkbox" name="agreement" />
+           i agree to terms and conditions 
+         </label> <br/>
+         <button type="submit">Sign in</button>
+    </form>
+    <footer>
+        <p>&copy; 2024 Our Website. All Rights Reserved.</p>
+        <p>
+            <a href="#">back to top</a>
+        </p>
+       
+    </footer>
+    
+    
+</body>
+</html>
